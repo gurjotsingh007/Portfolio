@@ -1,0 +1,84 @@
+.contact__details {
+    width: 78%;
+    margin: 20px auto;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #20202071;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.contact__light{
+   background-color: white;
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 20px, rgba(0, 0, 0, 0.23) 0px 0px 8px;
+}
+
+.contact__details > p {
+    color: #7A7A7A;
+}
+
+.contact__details__heading {
+    font-size: 1.5rem;
+}
+.contact__heading__light {
+    color: black;
+}
+
+.contact__details__name {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+.contact__name__light {
+    color: black;
+}
+
+.contact__details__address {
+    margin-bottom: 20px;
+}
+
+.contact__details__links {
+    margin: 6px;
+}
+
+.contact__details__resume  {
+    color: inherit;
+    border-bottom: 2px solid #7A7A7A;
+}
+
+.contact__details__resume:hover {
+    color: white;
+    transition: all 0.3s;
+    border-bottom: 2px solid white;
+}
+
+.contact__deatails__resumeDark:hover {
+    color: black;
+    transition: all 0.3s;
+    border-bottom: 2px solid black;
+}
+
+
+.contact__details__icons {
+    font-size: 1.8rem;
+    color: whitesmoke;
+    margin: 0 12px;
+    margin-top: 20px;
+}
+
+.contact__details__icons:hover {
+    color: #f50057;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.contact__icons__light {
+    color: black;
+}
+
+
+
+@media only screen and (max-width: 420px) {
+    .contact__details__icons {
+        margin: 40px 8px 0 8px;
+        font-size: 1.4rem;
+    }
+}

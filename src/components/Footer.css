@@ -1,0 +1,36 @@
+.footer {
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.footer__button {
+    border: none;
+    border-radius: 999px;
+    background-color: white;
+    position: absolute;
+    bottom: 16px;
+    right: 24px;
+}
+.footer__button:hover {
+    background-color: #f50057;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.footer__button > a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 12px;
+}
+.footer__button__icon {
+    color: black;
+    font-size: 1.4rem;
+}
+
+
+@media only screen and (max-width: 450px) {
+    .footer > a {
+        right: 10px;
+    }
+} 
